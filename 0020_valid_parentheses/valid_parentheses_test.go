@@ -8,22 +8,22 @@ type TestData struct {
 }
 
 var tests = []TestData{
-	//{
-	//	"()",
-	//	true,
-	//},
-	//{
-	//	"()[]{}",
-	//	true,
-	//},
-	//{
-	//	"(]",
-	//	false,
-	//},
-	//{
-	//	"[",
-	//	false,
-	//},
+	{
+		"()",
+		true,
+	},
+	{
+		"()[]{}",
+		true,
+	},
+	{
+		"(]",
+		false,
+	},
+	{
+		"[",
+		false,
+	},
 	{
 		"(){}}{",
 		false,
