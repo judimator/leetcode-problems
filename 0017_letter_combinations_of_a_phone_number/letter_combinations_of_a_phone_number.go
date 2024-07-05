@@ -25,6 +25,7 @@ func letterCombinations(digits string) []string {
 func getCombinations(i int, digits []rune, memo string, lookup map[rune]string, result *[]string) {
 	if i >= len(digits) {
 		*result = append(*result, memo)
+
 		return
 	}
 

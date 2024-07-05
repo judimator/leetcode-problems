@@ -23,4 +23,4 @@
 [21.Merge Two Sorted Lists](/0021_merge_two_sorted_lists/README.md)  
 [22.Generate Parentheses](/0022_generate_parentheses/README.md)  
 [23.Merge k Sorted Lists](/0023_merge_k_sorted_lists/README.md)  
-[Minimum Path Sum](/minimum_path_sum/README.md)  
+[64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
