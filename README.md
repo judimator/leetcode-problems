@@ -24,5 +24,7 @@
 [22.Generate Parentheses](/0022_generate_parentheses/README.md)  
 [23.Merge k Sorted Lists](/0023_merge_k_sorted_lists/README.md)  
 [24.Swap Nodes in Pairs](/0024_swap_nodes_in_pairs/README.md)  
-[24.Reverse Nodes in k-Group](/0025_reverse_nodes_in_k_group/README.md)  
+[25.Reverse Nodes in k-Group](/0025_reverse_nodes_in_k_group/README.md)  
+[26.Remove Duplicates from Sorted Array](/0026_remove_duplicates_from_sorted_array/README.md)  
+[27.Remove Element](/0027_remove_element/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
