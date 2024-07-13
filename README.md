@@ -28,4 +28,5 @@
 [26.Remove Duplicates from Sorted Array](/0026_remove_duplicates_from_sorted_array/README.md)  
 [27.Remove Element](/0027_remove_element/README.md)  
 [28.Find the Index of the First Occurrence in a String](/0028_find_the_index_of_the_first_occurrence_in_a_string/README.md)  
+[29.Divide Two Integers](/0029_divide_two_integers/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
