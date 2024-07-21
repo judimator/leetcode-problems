@@ -29,4 +29,6 @@
 [27.Remove Element](/0027_remove_element/README.md)  
 [28.Find the Index of the First Occurrence in a String](/0028_find_the_index_of_the_first_occurrence_in_a_string/README.md)  
 [29.Divide Two Integers](/0029_divide_two_integers/README.md)  
+[30.Substring with Concatenation of All Words](/0030_substring_with_concatenation_of_all_words/README.md)  
+[31.Next Permutation](/0031_next_permutation/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
