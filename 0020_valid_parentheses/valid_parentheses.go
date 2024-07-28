@@ -1,11 +1,11 @@
 package valid_parentheses
 
-type Stack struct {
+type stack struct {
 	chars []rune
 }
 
 func isValid(s string) bool {
-	stack := &Stack{}
+	stack := &stack{}
 
 	for _, char := range s {
 		if char == '[' || char == '(' || char == '{' {
@@ -36,17 +36,17 @@ func isValid(s string) bool {
 	return stack.len() == 0
 }
 
-func (s *Stack) push(char rune) {
+func (s *stack) push(char rune) {
 	s.chars = append(s.chars, char)
 }
 
-func (s *Stack) pop() rune {
+func (s *stack) pop() rune {
 	item := s.chars[len(s.chars)-1]
 	s.chars = s.chars[0 : len(s.chars)-1]
 
 	return item
 }
 
-func (s *Stack) len() int {
+func (s *stack) len() int {
 	return len(s.chars)
 }
