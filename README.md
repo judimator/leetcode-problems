@@ -32,4 +32,5 @@
 [30.Substring with Concatenation of All Words](/0030_substring_with_concatenation_of_all_words/README.md)  
 [31.Next Permutation](/0031_next_permutation/README.md)  
 [32.Longest Valid Parentheses](/0032_longest_valid_parentheses/README.md)  
+[33.Search in Rotated Sorted Array](/0033_search_in_rotated_sorted_array/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
