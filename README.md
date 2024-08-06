@@ -35,4 +35,5 @@
 [33.Search in Rotated Sorted Array](/0033_search_in_rotated_sorted_array/README.md)  
 [34.Find First and Last Position of Element in Sorted Array](/0034_find_first_and_last_position_of_element_in_sorted_array/README.md)  
 [35.Search Insert Position](/0035_search_insert_position/README.md)  
+[36.Valid Sudoku](/0036_valid_sudoku/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
