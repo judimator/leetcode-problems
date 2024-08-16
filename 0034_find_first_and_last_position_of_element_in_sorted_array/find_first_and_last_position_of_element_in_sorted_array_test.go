@@ -24,7 +24,7 @@ var tests = []TestData{
 	},
 }
 
-func TestSearch(t *testing.T) {
+func TestSearchRange(t *testing.T) {
 	for _, data := range tests {
 		if result := searchRange(data.input, data.target); !reflect.DeepEqual(result, data.output) {
 			t.Error("Failed, searchRange")

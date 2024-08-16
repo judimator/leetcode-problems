@@ -40,7 +40,7 @@ var tests = []TestData{
 	},
 }
 
-func TestSearch(t *testing.T) {
+func TestIsValidSudoku(t *testing.T) {
 	for _, data := range tests {
 		if result := isValidSudoku(data.input); result != data.output {
 			t.Error("Failed, isValidSudoku")

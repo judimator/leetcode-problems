@@ -28,7 +28,7 @@ var tests = []TestData{
 	},
 }
 
-func TestSearch(t *testing.T) {
+func TestSearchInsert(t *testing.T) {
 	for _, data := range tests {
 		if result := searchInsert(data.input, data.target); result != data.output {
 			t.Error("Failed, searchInsert")
