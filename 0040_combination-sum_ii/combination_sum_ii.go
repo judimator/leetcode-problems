@@ -1,8 +1,8 @@
-package combination_sum
+package combination_sum_ii
 
 import "sort"
 
-func combinationSum(candidates []int, target int) [][]int {
+func combinationSum2(candidates []int, target int) [][]int {
 	sort.Ints(candidates)
 
 	var result [][]int
@@ -16,13 +16,17 @@ func combinationSum(candidates []int, target int) [][]int {
 			return
 		}
 
-		if i >= len(candidates) || target < candidates[i] {
-			return
-		}
-
 		for j := i; j < len(candidates); j++ {
+			if j > i && candidates[j] == candidates[j-1] {
+				continue
+			}
+
+			if candidates[j] > target {
+				return
+			}
+
 			tmpResult = append(tmpResult, candidates[j])
-			dfs(j, target-candidates[j])
+			dfs(j+1, target-candidates[j])
 			tmpResult = tmpResult[0 : len(tmpResult)-1]
 		}
 	}
