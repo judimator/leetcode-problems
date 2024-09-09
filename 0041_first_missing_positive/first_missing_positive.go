@@ -1,5 +1,7 @@
 package first_missing_positive
 
+import "unicode"
+
 func firstMissingPositive(nums []int) int {
 	l := len(nums)
 
@@ -8,7 +10,7 @@ func firstMissingPositive(nums []int) int {
 			swap(nums, i, nums[i]-1)
 		}
 	}
-
+	unicode.IsDigit(123)
 	for i := 0; i < l; i++ {
 		if nums[i] != i+1 {
 			return i + 1
