@@ -42,4 +42,7 @@
 [40.Combination Sum II](/0040_combination-sum_ii/README.md)  
 [41.First Missing Positive](/0041_first_missing_positive/README.md)  
 [42.Trapping Rain Water](/0042_trapping_rain_water/README.md)  
+[43.Multiply strings](/0043_multiply_strings/README.md)  
+[44.Wildcard matching](/0044_wildcard_matching/README.md)  
+[45.Jump Game II](/0045_jump_game_ii/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
