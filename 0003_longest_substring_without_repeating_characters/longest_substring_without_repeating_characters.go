@@ -1,38 +1,21 @@
 package longest_substring_without_repeating_characters
 
-import (
-	"strings"
-)
-
 func lengthOfLongestSubstring(s string) int {
-	tmp := make(map[string]int)
-	longest := 0
-	chars := strings.Split(s, "")
-	copyChairs := make([]string, len(chars))
+	l, r := 0, 0
+	hashmap := make(map[string]int)
+	maxLength := 0
 
-	copy(copyChairs, chars)
+	for r < len(s) {
+		k := string(s[r])
 
-	for range chars {
-		for _, charInner := range copyChairs {
-			_, ok := tmp[charInner]
-			if ok == false {
-				tmp[charInner] = 1
-				tmpLongest := len(tmp)
-
-				if tmpLongest > longest {
-					longest = tmpLongest
-				}
-			} else {
-				copyChairs = remove(copyChairs, 0)
-				tmp = map[string]int{}
-
-				break
-			}
+		if _, ok := hashmap[k]; ok {
+			maxLength = max(maxLength, r-l)
+			l = max(l, hashmap[k]+1)
 		}
-	}
-	return longest
-}
 
-func remove(slice []string, s int) []string {
-	return append(slice[:s], slice[s+1:]...)
+		hashmap[k] = r
+		r += 1
+	}
+
+	return max(maxLength, r-l)
 }

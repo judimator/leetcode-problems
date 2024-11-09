@@ -2,22 +2,22 @@ package two_sum
 
 func twoSum(nums []int, target int) []int {
 	callback := func(nums []int, target int) []int {
-		result := make([]int, 2)
-		for k, num := range nums {
-			for i, el := range nums {
-				if k == i {
-					continue
-				}
+		left := 0
+		right := len(nums) - 1
 
-				if (num + el) == target {
-					result[0] = k
-					result[1] = i
+		for left < right {
+			sum := nums[left] + nums[right]
 
-					return result
-				}
+			if sum == target {
+				return []int{left, right}
+			} else if sum < target {
+				left++
+			} else {
+				right--
 			}
 		}
-		return result
+
+		return nil
 	}
 
 	return callback(nums, target)
