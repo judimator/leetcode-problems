@@ -1,4 +1,4 @@
-# The Task
+# The problem
 
 You are given an array of `k` linked-lists `lists`, each linked-list is sorted in ascending order.
 

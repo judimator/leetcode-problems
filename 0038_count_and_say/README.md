@@ -1,4 +1,4 @@
-# The task
+# The problem
 
 The **count-and-say** sequence is a sequence of digit strings defined by the recursive formula:
 

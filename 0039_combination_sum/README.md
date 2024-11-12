@@ -1,4 +1,4 @@
-# The task
+# The problem
 
 Given an array of **distinct** integers `candidates` and a `target` integer target, return a _list of all **unique combinations**_ of `candidates` _where the chosen numbers sum to_ `target`. You may return the combinations in **any order**.
 
