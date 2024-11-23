@@ -54,7 +54,7 @@ var tests = []TestData{
 	},
 }
 
-func TestMerge(t *testing.T) {
+func TestInsert(t *testing.T) {
 	for _, data := range tests {
 		if result := insert(data.intervals, data.newInterval); !reflect.DeepEqual(result, data.output) {
 			t.Error("Failed, insert")
