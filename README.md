@@ -61,4 +61,5 @@
 [59.Spiral Matrix II](/0059_spiral_matrix_ii/README.md)  
 [60.Permutation Sequence](/0060_permutation_sequence/README.md)  
 [61.Rotate List](/0061_rotate_list/README.md)  
+[61.Unique Path](/0062_unique_paths/README.md)  
 [64.Minimum Path Sum](/0064_minimum_path_sum/README.md)  
